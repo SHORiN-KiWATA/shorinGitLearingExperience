@@ -1,5 +1,7 @@
 # shorinGitLearingExperience
-学一学git的用法
+```
+echo hellogitworld:)
+```
 
 ## 简单来说
 
