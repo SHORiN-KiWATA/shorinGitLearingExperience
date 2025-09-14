@@ -3,6 +3,12 @@
 
 
 
+## 设置用户
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+如果仅在本仓库设置身份标识，则省略 --global 参数。
+
 ## git clone自己的私人repo
 
 github点击右上角的头像，选择 **Settings** (设置)。
