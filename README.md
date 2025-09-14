@@ -38,3 +38,36 @@ github点击右上角的头像，选择 **Settings** (设置)。
 - **Select scopes (选择权限)**: 这是最关键的一步。对于克隆、拉取、推送仓库等日常操作，您只需要勾选 **`repo`** 这一个大项就足够了。它包含了所有对仓库进行操作的权限。
 
 滚动到底部，点击 **Generate token**。
+
+## ssh公钥和私钥
+
+1. 在本机运行命令使用ed25519算法生成ssh私钥和公钥
+
+   ```
+   ssh-keygen -t ed25519 -C "your_email@example.com"
+   ```
+
+   会询问你密钥的存放位置和是否设置密码，密码可以为空
+
+2. 把公钥添加到github
+
+   ```
+   cat ~/.ssh/id_ed25519.pub
+   ```
+
+   这条命令可以把公钥内容打印在终端，内容是ssh-ed25519.....
+
+   去github页面的settings-->SSH and GPG keys --> new ssh key
+
+   取一个名字，粘贴公钥内容，点击add ssh key
+
+3. 使用ssh链接进行git clone
+
+
+
+
+
+
+
+
+
