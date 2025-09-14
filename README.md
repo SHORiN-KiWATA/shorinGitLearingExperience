@@ -7,7 +7,9 @@ echo hellogitworld:)
 
 设置用户
 
-git clone <repo>
+生成ssh密钥或者token
+
+git clone repo链接
 
 git add 文件名或者 . 点代表全部文件
 
