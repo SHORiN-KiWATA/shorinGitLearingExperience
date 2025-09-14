@@ -1,7 +1,17 @@
 # shorinGitLearingExperience
 学一学git的用法
 
+## 简单来说
 
+设置用户
+
+git clone <repo>
+
+git add 文件名或者 . 点代表全部文件
+
+git commit -m “这里是和修改相关的note”
+
+git push 更新git上的repo
 
 ## 设置用户
 
