@@ -79,6 +79,10 @@ git pull --rebase
 git pull --rebase -X theirs
 ```
 
+在不commit的情况下变基
+```
+git pull --autostash
+```
 
 
 
