@@ -68,7 +68,16 @@ github点击右上角的头像，选择 **Settings** (设置)。
 3. 使用ssh链接进行git clone
 
 
+## 冲突时的变基
+不冲突，想让自己的commit放在前面时：
+```
+git pull --rebase
+```
 
+冲突，想把本地的commit放在前面时，以远程为基，保留本地修改：
+```
+git pull --rebase -X theirs
+```
 
 
 
